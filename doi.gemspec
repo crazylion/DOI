@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["crazylion2@gmail.com"]
   gem.description   = %q{query doi by doi number}
   gem.summary       = %q{query doi by doi number}
-  gem.homepage      = ""
+  gem.homepage      = "https://github.com/crazylion/DOI"
 
   gem.files         = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
