@@ -1,0 +1,10 @@
+#!/usr/bin/env ruby
+
+require 'doi'
+
+url =Doi::Search.by_number(ARGV[0])
+if url
+    p "url is "+ url
+else 
+    p "this doi #{ARGV[0]} doesn't exist."
+end
